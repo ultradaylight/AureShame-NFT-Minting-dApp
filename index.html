@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AureShame NFT Minting</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background: #f0f0f0; }
+        .nft-container { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin: 20px; }
+        .nft-card { border: 1px solid #ccc; padding: 10px; width: 200px; background: white; border-radius: 5px; }
+        .nft-card img { max-width: 100%; height: auto; }
+        .nft-card button { margin-top: 10px; padding: 5px 10px; cursor: pointer; }
+        #connectWallet { margin: 20px; padding: 10px 20px; font-size: 16px; }
+        #status { margin: 10px; color: #333; }
+    </style>
+</head>
+<body>
+    <h1>AureShame NFT Minting</h1>
+    <button id="connectWallet">Connect Wallet</button>
+    <p id="status">Please connect your wallet to mint NFTs.</p>
+    <div id="nftGallery" class="nft-container"></div>
+
+    <!-- Load dependencies -->
+    <script src="https://unpkg.com/ethers@6.13.2/dist/ethers.umd.min.js"></script>
+    <script src="https://unpkg.com/@walletconnect/web3-provider@2.10.0/dist/umd/index.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
