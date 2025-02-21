@@ -1,0 +1,35 @@
+{
+  "name": "AureShame-NFT-Minting-dApp",
+  "version": "1.0.0",
+  "description": "A decentralized application for minting exclusive AureShame NFTs on the PulseChain network.",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=8000 --no-browser",
+    "build": "echo 'No build process defined yet.'",
+    "deploy": "echo 'Deploy script to be defined when deploying to production.'"
+  },
+  "keywords": [
+    "NFT",
+    "Minting",
+    "PulseChain",
+    "MetaMask",
+    "WalletConnect",
+    "Cryptocurrency",
+    "Blockchain"
+  ],
+  "author": "UltraD",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ultradaylight/AureShame-NFT-Minting-dApp.git"
+  },
+  "homepage": "https://ipfs.io/ipfs/bafybeibq5xf33v3gxgbaizzg7uzkswqqahybha6wdrcj33vaz3w2fbcipq/",
+  "dependencies": {
+    "ethers": "^6.13.2",
+    "@walletconnect/web3-provider": "^2.10.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
+
